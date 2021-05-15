@@ -46,7 +46,7 @@
         array ("172.21.68.102","BD PGSQL 02"),
         array ("172.21.68.202","BD PGSQL 02"),       
         array ("172.21.68.32","BD BI"), 
-        array ("172.21.68.36","BD OSTICKET"),    
+        array ("172.21.68.36","BD sdafkajsdfijoo"),    
     );
 
     $i = count($iplist);
