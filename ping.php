@@ -1,45 +1,4 @@
 <?php
-
-/*
-    //ping 1 ip address
-    $ip = "172.21.68.213";
-    $ping = exec("ping -n 1 $ip", $output, $status);
-    echo $status; //0:Soccessful, 1:Unsuccessful
-*/
-/*
-    //ping multe ip address
-    $iplist = ["1722.21.68.101","172.21.68.202"];
-    $i = count($iplist);
-
-    for($j=0;$j<$i;$j++){
-        $ip = $iplist[$j];
-        $ping = exec("ping -n 1 $ip", $output, $status);
-        echo $status; //0:Soccessful, 1:Unsuccessful
-        echo '<br/>';
-    }
-
-*/
-
-
-/*
-    //Add description of the IP/URL
-    $iplist = array(
-        array ("172.21.68.101","BD PGSQL 01"),
-        array ("172.21.68.202","BD PGSQL 02")       
-    );
-
-    $i = count($iplist);
-
-    for($j=0;$j<$i;$j++){
-        $ip = $iplist[$j][0];
-        $ping = exec("ping -n 1 $ip", $output, $status);
-        echo "ping ".$iplist[$j][0].$iplist[$j][1];
-        echo $status; //0:Soccessful, 1:Unsuccessful
-        echo '<br/>';
-    }
-*/
-
-
     //Create a table showing the results
     $iplist = array(
         array ("172.21.68.101","BD PGSQL 01"),
